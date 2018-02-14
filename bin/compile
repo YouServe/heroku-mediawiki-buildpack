@@ -26,4 +26,5 @@ fi
 
 tasks=(`echo ${DEPLOY_TASKS}`)
 cd $build_dir
-$tasks
+chmod +x $tasks
+./$tasks
