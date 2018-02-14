@@ -26,6 +26,4 @@ fi
 
 tasks=(`echo ${DEPLOY_TASKS}`)
 cd $build_dir
-for task in ${tasks[@]}; do
-  $task
-done
+$task
